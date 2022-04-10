@@ -1,0 +1,26 @@
+{
+  "train": {
+    "lr": 0.001,
+    "batch_size": 20,
+    "epochs": "5",
+    "loss": "categorical_crossentropy",
+    "train_dir": "E:\\3业余资料\\10人脸性别分类\\data\\1人脸分类\\训练1",
+    "validation_dir": "E:\\3业余资料\\10人脸性别分类\\data\\1人脸分类\\测试1",
+    "model_file_path": "E:\\3业余资料\\10人脸性别分类\\code\\model/ResNet50-{epoch:02d}-{val_acc:.2f}.hdf5"
+  },
+  "global": {
+    "im_size": 224,
+    "model_type": "ResNet50",
+    "class_ch": [
+      "男",
+      "女"
+    ],
+    "class_mode": "categorical",
+    "class_num": 2,
+    "log_path": ""
+  },
+  "label_dict": {
+    "0": "女",
+    "1": "男"
+  }
+}
